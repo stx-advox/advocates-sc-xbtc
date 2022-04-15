@@ -72,7 +72,7 @@ const main = async () => {
     }
     return dist;
   });
-  csv = csv.map((item) => [item[0], Math.floor(item[1] / 1e12) / 1e6]);
+  csv = csv.map((item) => [item[0], Math.floor(item[1] / 1e18)]);
 
   csv = csv.map((item) => [nameModify[item[0]] || item[0], item[1]]);
 
