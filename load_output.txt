@@ -1,0 +1,42 @@
+yarn run v1.22.10
+$ dotenv sourcecred load
+  GO   load
+  GO   loading sourcecred/discord
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha
+Discord Rate limit reached. Waiting for 3.85 seconds (until 5/24/2022, 9:53:40 PM)
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#welcome-and-rules
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#welcome-and-rules: 1659ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#announcements
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#announcements: 2506ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#resources
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#resources: 1153ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#general
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#general: 2405ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#config-feedback
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#config-feedback: 3444ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#off-topic
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#off-topic: 1452ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#rules
+ DONE  sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#rules: 546ms
+  GO   sourcecred/discord: discord/[DEPRECATED] Stacks Advocates Alpha/#🙌props
+Discord Rate limit reached. Waiting for 5.207 seconds (until 5/24/2022, 9:54:03 PM)
+Discord Rate limit reached. Waiting for 4.806 seconds (until 5/24/2022, 9:54:11 PM)
+Discord Rate limit reached. Waiting for 3.024 seconds (until 5/24/2022, 9:54:20 PM)
+Discord Rate limit reached. Waiting for 5.178 seconds (until 5/24/2022, 9:54:36 PM)
+Discord Rate limit reached. Waiting for 5.4 seconds (until 5/24/2022, 9:54:44 PM)
+Discord Rate limit reached. Waiting for 4.126 seconds (until 5/24/2022, 9:54:52 PM)
+Discord Rate limit reached. Waiting for 4.995 seconds (until 5/24/2022, 9:55:00 PM)
+Discord Rate limit reached. Waiting for 5.194 seconds (until 5/24/2022, 9:55:09 PM)
+Discord Rate limit reached. Waiting for 5.362 seconds (until 5/24/2022, 9:55:17 PM)
+Discord Rate limit reached. Waiting for 5.103 seconds (until 5/24/2022, 9:55:25 PM)
+Discord Rate limit reached. Waiting for 5.695 seconds (until 5/24/2022, 9:55:34 PM)
+Discord Rate limit reached. Waiting for 4.651 seconds (until 5/24/2022, 9:55:42 PM)
+Discord Rate limit reached. Waiting for 5.54 seconds (until 5/24/2022, 9:55:50 PM)
+Discord Rate limit reached. Waiting for 5.549 seconds (until 5/24/2022, 9:55:58 PM)
+Discord Rate limit reached. Waiting for 5.584 seconds (until 5/24/2022, 9:56:06 PM)
+Discord Rate limit reached. Waiting for 4.912 seconds (until 5/24/2022, 9:56:14 PM)
+Discord Rate limit reached. Waiting for 5.414 seconds (until 5/24/2022, 9:56:22 PM)
+Discord Rate limit reached. Waiting for 4.442 seconds (until 5/24/2022, 9:56:30 PM)
+Discord Rate limit reached. Waiting for 5.026 seconds (until 5/24/2022, 9:56:38 PM)
+Discord Rate limit reached. Waiting for 5.338 seconds (until 5/24/2022, 9:56:46 PM)
+Discord Rate limit reached. Waiting for 5.307 seconds (until 5/24/2022, 9:56:54 PM)

@@ -31,7 +31,7 @@ jobs:
 
       - name: Load Data and Compute Cred 🧮
         run: |
-          yarn load
+          bash scripts/keep_loading.sh
           mkdir -p output/contributions/sourcecred/discord
           yarn sourcecred contributions
           yarn sourcecred credequate
