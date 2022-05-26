@@ -3,14 +3,23 @@
 
 is_ok=0
 
+function check_ok_and_exit {
+  if grep -qi "Done in" load_output.txt
+  then
+    echo "exiting"
+    break
+    exit 0
+  fi
+}
+
 while [ $is_ok -eq 0 ]
 do
-  echo "sup"
+  check_ok_and_exit
   yarn load 2>&1 | tee load_output.txt &
   pid=$!
-  echo $pid
-  while true 
+  while true
     do
+    check_ok_and_exit
       if grep -qi Error load_output.txt
       then
         kill $pid
@@ -18,15 +27,8 @@ do
       fi
       sleep 10
   done
-
-  echo "Loading finished"
-  if grep -qi Error load_output.txt; then
-    is_ok=0
-    echo "Error found"
-  else
-    is_ok=1
-    kill $pid
-  fi
 done
+
+echo "Loading finished"
 
 rm load_output.txt
