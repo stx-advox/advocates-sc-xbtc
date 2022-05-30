@@ -2,9 +2,10 @@
 
 
 is_ok=0
+LOAD_FILE=load_output.txt
 
 function check_ok_and_exit {
-  if grep -qi "Done in" load_output.txt
+  if test -f "$FILE" && grep -qi "Done in" $LOAD_FILE
   then
     echo "exiting"
     break
@@ -15,12 +16,12 @@ function check_ok_and_exit {
 while [ $is_ok -eq 0 ]
 do
   check_ok_and_exit
-  yarn load 2>&1 | tee load_output.txt &
+  yarn load 2>&1 | tee $LOAD_FILE &
   pid=$!
   while true
     do
     check_ok_and_exit
-      if grep -qi Error load_output.txt
+      if grep -qi Error $LOAD_FILE
       then
         kill $pid
         break
@@ -31,4 +32,4 @@ done
 
 echo "Loading finished"
 
-rm load_output.txt
+rm $LOAD_FILE

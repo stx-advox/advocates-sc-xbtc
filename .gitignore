@@ -6,3 +6,6 @@ cache/
 .env
 .DS_STORE
 *.csv
+
+load_output.txt
+
