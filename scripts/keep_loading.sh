@@ -5,7 +5,7 @@ is_ok=0
 LOAD_FILE=load_output.txt
 
 function check_ok_and_exit {
-  if test -f "$FILE" && grep -qi "Done in" $LOAD_FILE
+  if grep -qi "Done in" $LOAD_FILE
   then
     echo "exiting"
     break
