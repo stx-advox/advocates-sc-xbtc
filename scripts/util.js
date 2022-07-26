@@ -1,4 +1,4 @@
-const { sourcecred } = require("sourcecred");
+const { sourcecred } = require("@hozz/sourcecred");
 const fs = require("fs");
 const path = require("path");
 const { Ledger } = sourcecred.ledger.ledger;
