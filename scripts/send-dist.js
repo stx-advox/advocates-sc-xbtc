@@ -1,10 +1,10 @@
 require("dotenv").config();
 const path = require("path");
 
-const { Client, Intents } = require("discord.js");
+const { Client, IntentsBitField } = require("discord.js");
 const { ledgerManager } = require("./util");
 const client = new Client({
-  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
+  intents: [IntentsBitField.Flags.Guilds, IntentsBitField.Flags.GuildMessages],
 });
 
 client.on("ready", async () => {
