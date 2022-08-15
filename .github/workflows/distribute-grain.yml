@@ -26,9 +26,7 @@ jobs:
 
       - name: Load Data and Compute Cred 🧮
         run: |
-          mkdir -p cache/sourcecred/discord
-          wget --output-document=cache/sourcecred/discord/discordMirror-621759717756370964.db ${{ secrets.CACHED_DB_PREFIX }}discordMirror-621759717756370964.db
-          wget --output-document=cache/sourcecred/discord/discordMirror-792908935774076938.db ${{ secrets.CACHED_DB_PREFIX }}discordMirror-792908935774076938.db
+          yarn load
           yarn sourcecred contributions
           yarn sourcecred credequate
           node scripts/wolf-turtle-bear.js
