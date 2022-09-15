@@ -10,7 +10,7 @@
     "@discordjs/rest": "^1.0.1",
     "cross-fetch": "^3.1.5",
     "date-fns": "^2.29.3",
-    "discord-api-types": "^0.37.9",
+    "discord-api-types": "^0.37.10",
     "discord.js": "^14.3.0",
     "dotenv": "^16.0.2",
     "@hozz/sourcecred": "^0.11.4"
