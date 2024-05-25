@@ -210,7 +210,7 @@
               },
               {
                 "key": "channel",
-                "default": 1,
+                "default": 0,
                 "subkeys": [
                   {
                     "subkey": "846398942119329862",
