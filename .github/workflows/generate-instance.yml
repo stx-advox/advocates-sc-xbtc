@@ -20,7 +20,7 @@ jobs:
           node-version: "18"
 
       - name: Cache Data # Cache SourceCred Data, invalidating if any of the config changes or the SC version is updated
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: "**/cache"
           key: SC-${{ runner.os }}-V3-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
