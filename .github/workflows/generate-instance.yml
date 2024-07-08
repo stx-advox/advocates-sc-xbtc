@@ -50,7 +50,7 @@ jobs:
           cp -r ./{output,data,config,sourcecred.json,package.json} ./site/
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.4.2
+        uses: JamesIves/github-pages-deploy-action@v4.6.3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
